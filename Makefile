@@ -170,6 +170,8 @@ checksum:
 	echo "Checksum: $$CHECKSUM"; \
 	sed -i '' -E "s/(checksum: \\\")[a-f0-9]+(\\\")/\\1$$CHECKSUM\\2/" $(PACKAGE_FILE)
 
+update_package: zip checksum
+
 clear:
 	@echo "Cleaning build directories..."
 	rm -rf $(BUILD_DIR)
