@@ -1,0 +1,1582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8944112E06EDC300A08AB1 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3942C2E068B1600FD3221 /* wrapper.mm */; };
+		4F8944122E06EDC700A08AB1 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3942B2E068B1600FD3221 /* wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F8944222E06EDE500A08AB1 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3942C2E068B1600FD3221 /* wrapper.mm */; };
+		4F8944232E06EDE500A08AB1 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3942B2E068B1600FD3221 /* wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F89442B2E07851400A08AB1 /* libOpenEXRUtil-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944242E07851400A08AB1 /* libOpenEXRUtil-3_3.a */; };
+		4F89442C2E07851400A08AB1 /* libImath-3_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944252E07851400A08AB1 /* libImath-3_1.a */; };
+		4F89442D2E07851400A08AB1 /* libOpenEXRCore-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944262E07851400A08AB1 /* libOpenEXRCore-3_3.a */; };
+		4F89442E2E07851400A08AB1 /* libOpenEXR-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944272E07851400A08AB1 /* libOpenEXR-3_3.a */; };
+		4F89442F2E07851400A08AB1 /* libIex-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944282E07851400A08AB1 /* libIex-3_3.a */; };
+		4F8944302E07851400A08AB1 /* libdeflate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944292E07851400A08AB1 /* libdeflate.a */; };
+		4F8944312E07851400A08AB1 /* libIlmThread-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F89442A2E07851400A08AB1 /* libIlmThread-3_3.a */; };
+		4F8944392E07854F00A08AB1 /* libIex-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944322E07854F00A08AB1 /* libIex-3_3.a */; };
+		4F89443A2E07854F00A08AB1 /* libImath-3_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944332E07854F00A08AB1 /* libImath-3_1.a */; };
+		4F89443B2E07854F00A08AB1 /* libOpenEXRUtil-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944342E07854F00A08AB1 /* libOpenEXRUtil-3_3.a */; };
+		4F89443C2E07854F00A08AB1 /* libOpenEXRCore-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944352E07854F00A08AB1 /* libOpenEXRCore-3_3.a */; };
+		4F89443D2E07854F00A08AB1 /* libdeflate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944362E07854F00A08AB1 /* libdeflate.a */; };
+		4F89443E2E07854F00A08AB1 /* libIlmThread-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944372E07854F00A08AB1 /* libIlmThread-3_3.a */; };
+		4F89443F2E07854F00A08AB1 /* libOpenEXR-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8944382E07854F00A08AB1 /* libOpenEXR-3_3.a */; };
+		4F8944A02E07A1D100A08AB1 /* OpenEXRWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F893FD72E06E19900A08AB1 /* OpenEXRWrapper.framework */; };
+		4F8944E22E07C59B00A08AB1 /* readEXR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E12E07C59B00A08AB1 /* readEXR.swift */; };
+		4F8944E32E07C59B00A08AB1 /* readEXR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E12E07C59B00A08AB1 /* readEXR.swift */; };
+		4F8944E42E07C59B00A08AB1 /* readEXR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E12E07C59B00A08AB1 /* readEXR.swift */; };
+		4F8944E52E07C59B00A08AB1 /* readEXR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E12E07C59B00A08AB1 /* readEXR.swift */; };
+		4F8944E62E07C59B00A08AB1 /* readEXR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E12E07C59B00A08AB1 /* readEXR.swift */; };
+		4F8944E82E07C8FA00A08AB1 /* EXRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E72E07C8FA00A08AB1 /* EXRData.swift */; };
+		4F8944E92E07C8FA00A08AB1 /* EXRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E72E07C8FA00A08AB1 /* EXRData.swift */; };
+		4F8944EA2E07C8FA00A08AB1 /* EXRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E72E07C8FA00A08AB1 /* EXRData.swift */; };
+		4F8944EB2E07C8FA00A08AB1 /* EXRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E72E07C8FA00A08AB1 /* EXRData.swift */; };
+		4F8944EC2E07C8FA00A08AB1 /* EXRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8944E72E07C8FA00A08AB1 /* EXRData.swift */; };
+		4F8944F82E07DD7B00A08AB1 /* OpenEXRWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394452E06B2FE00FD3221 /* OpenEXRWrapper.framework */; };
+		4FE3942E2E068B1600FD3221 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3942B2E068B1600FD3221 /* wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FE394302E068B1600FD3221 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3942C2E068B1600FD3221 /* wrapper.mm */; };
+		4FE394392E06B25700FD3221 /* libOpenEXRCore-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394322E06B25700FD3221 /* libOpenEXRCore-3_3.a */; };
+		4FE3943A2E06B25700FD3221 /* libdeflate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394332E06B25700FD3221 /* libdeflate.a */; };
+		4FE3943B2E06B25700FD3221 /* libOpenEXRUtil-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394342E06B25700FD3221 /* libOpenEXRUtil-3_3.a */; };
+		4FE3943C2E06B25700FD3221 /* libOpenEXR-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394352E06B25700FD3221 /* libOpenEXR-3_3.a */; };
+		4FE3943D2E06B25700FD3221 /* libIlmThread-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394362E06B25700FD3221 /* libIlmThread-3_3.a */; };
+		4FE3943E2E06B25700FD3221 /* libIex-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394372E06B25700FD3221 /* libIex-3_3.a */; };
+		4FE3943F2E06B25700FD3221 /* libImath-3_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394382E06B25700FD3221 /* libImath-3_1.a */; };
+		4FE394562E06B31C00FD3221 /* libImath-3_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE3944F2E06B31C00FD3221 /* libImath-3_1.a */; };
+		4FE394572E06B31C00FD3221 /* libOpenEXR-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394502E06B31C00FD3221 /* libOpenEXR-3_3.a */; };
+		4FE394582E06B31C00FD3221 /* libIex-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394512E06B31C00FD3221 /* libIex-3_3.a */; };
+		4FE394592E06B31C00FD3221 /* libdeflate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394522E06B31C00FD3221 /* libdeflate.a */; };
+		4FE3945A2E06B31C00FD3221 /* libOpenEXRCore-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394532E06B31C00FD3221 /* libOpenEXRCore-3_3.a */; };
+		4FE3945B2E06B31C00FD3221 /* libIlmThread-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394542E06B31C00FD3221 /* libIlmThread-3_3.a */; };
+		4FE3945C2E06B31C00FD3221 /* libOpenEXRUtil-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394552E06B31C00FD3221 /* libOpenEXRUtil-3_3.a */; };
+		4FE3945D2E06B36700FD3221 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3942B2E068B1600FD3221 /* wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FE3945E2E06B36C00FD3221 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3942C2E068B1600FD3221 /* wrapper.mm */; };
+		4FE3946E2E06B39300FD3221 /* wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3942B2E068B1600FD3221 /* wrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FE3946F2E06B39300FD3221 /* wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3942C2E068B1600FD3221 /* wrapper.mm */; };
+		4FE394772E06B3A800FD3221 /* libOpenEXR-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394702E06B3A800FD3221 /* libOpenEXR-3_3.a */; };
+		4FE394782E06B3A800FD3221 /* libdeflate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394712E06B3A800FD3221 /* libdeflate.a */; };
+		4FE394792E06B3A800FD3221 /* libIlmThread-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394722E06B3A800FD3221 /* libIlmThread-3_3.a */; };
+		4FE3947A2E06B3A800FD3221 /* libOpenEXRCore-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394732E06B3A800FD3221 /* libOpenEXRCore-3_3.a */; };
+		4FE3947B2E06B3A800FD3221 /* libIex-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394742E06B3A800FD3221 /* libIex-3_3.a */; };
+		4FE3947C2E06B3A800FD3221 /* libOpenEXRUtil-3_3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394752E06B3A800FD3221 /* libOpenEXRUtil-3_3.a */; };
+		4FE3947D2E06B3A800FD3221 /* libImath-3_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE394762E06B3A800FD3221 /* libImath-3_1.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F8944A12E07A1D100A08AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FECBC7C2E06749D006048E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F893FD62E06E19900A08AB1;
+			remoteInfo = OpenEXRWrapper_macos;
+		};
+		4F8944F92E07DD7B00A08AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FECBC7C2E06749D006048E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE394442E06B2FE00FD3221;
+			remoteInfo = OpenEXRWrapper_ios_simulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F893FD72E06E19900A08AB1 /* OpenEXRWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenEXRWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8944182E06EDDA00A08AB1 /* OpenEXRWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenEXRWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8944242E07851400A08AB1 /* libOpenEXRUtil-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRUtil-3_3.a"; path = "install/MAC_ARM64/lib/libOpenEXRUtil-3_3.a"; sourceTree = "<group>"; };
+		4F8944252E07851400A08AB1 /* libImath-3_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libImath-3_1.a"; path = "install/MAC_ARM64/lib/libImath-3_1.a"; sourceTree = "<group>"; };
+		4F8944262E07851400A08AB1 /* libOpenEXRCore-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRCore-3_3.a"; path = "install/MAC_ARM64/lib/libOpenEXRCore-3_3.a"; sourceTree = "<group>"; };
+		4F8944272E07851400A08AB1 /* libOpenEXR-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXR-3_3.a"; path = "install/MAC_ARM64/lib/libOpenEXR-3_3.a"; sourceTree = "<group>"; };
+		4F8944282E07851400A08AB1 /* libIex-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIex-3_3.a"; path = "install/MAC_ARM64/lib/libIex-3_3.a"; sourceTree = "<group>"; };
+		4F8944292E07851400A08AB1 /* libdeflate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdeflate.a; path = install/MAC_ARM64/lib/libdeflate.a; sourceTree = "<group>"; };
+		4F89442A2E07851400A08AB1 /* libIlmThread-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIlmThread-3_3.a"; path = "install/MAC_ARM64/lib/libIlmThread-3_3.a"; sourceTree = "<group>"; };
+		4F8944322E07854F00A08AB1 /* libIex-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIex-3_3.a"; path = "install/MAC/lib/libIex-3_3.a"; sourceTree = "<group>"; };
+		4F8944332E07854F00A08AB1 /* libImath-3_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libImath-3_1.a"; path = "install/MAC/lib/libImath-3_1.a"; sourceTree = "<group>"; };
+		4F8944342E07854F00A08AB1 /* libOpenEXRUtil-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRUtil-3_3.a"; path = "install/MAC/lib/libOpenEXRUtil-3_3.a"; sourceTree = "<group>"; };
+		4F8944352E07854F00A08AB1 /* libOpenEXRCore-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRCore-3_3.a"; path = "install/MAC/lib/libOpenEXRCore-3_3.a"; sourceTree = "<group>"; };
+		4F8944362E07854F00A08AB1 /* libdeflate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdeflate.a; path = install/MAC/lib/libdeflate.a; sourceTree = "<group>"; };
+		4F8944372E07854F00A08AB1 /* libIlmThread-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIlmThread-3_3.a"; path = "install/MAC/lib/libIlmThread-3_3.a"; sourceTree = "<group>"; };
+		4F8944382E07854F00A08AB1 /* libOpenEXR-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXR-3_3.a"; path = "install/MAC/lib/libOpenEXR-3_3.a"; sourceTree = "<group>"; };
+		4F89449C2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEXRWrapperMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8944E12E07C59B00A08AB1 /* readEXR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readEXR.swift; sourceTree = "<group>"; };
+		4F8944E72E07C8FA00A08AB1 /* EXRData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXRData.swift; sourceTree = "<group>"; };
+		4F8944F42E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEXRWrapperIOSSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE3942B2E068B1600FD3221 /* wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wrapper.h; sourceTree = "<group>"; };
+		4FE3942C2E068B1600FD3221 /* wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = wrapper.mm; sourceTree = "<group>"; };
+		4FE394322E06B25700FD3221 /* libOpenEXRCore-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRCore-3_3.a"; path = "install/OS64/lib/libOpenEXRCore-3_3.a"; sourceTree = "<group>"; };
+		4FE394332E06B25700FD3221 /* libdeflate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdeflate.a; path = install/OS64/lib/libdeflate.a; sourceTree = "<group>"; };
+		4FE394342E06B25700FD3221 /* libOpenEXRUtil-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRUtil-3_3.a"; path = "install/OS64/lib/libOpenEXRUtil-3_3.a"; sourceTree = "<group>"; };
+		4FE394352E06B25700FD3221 /* libOpenEXR-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXR-3_3.a"; path = "install/OS64/lib/libOpenEXR-3_3.a"; sourceTree = "<group>"; };
+		4FE394362E06B25700FD3221 /* libIlmThread-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIlmThread-3_3.a"; path = "install/OS64/lib/libIlmThread-3_3.a"; sourceTree = "<group>"; };
+		4FE394372E06B25700FD3221 /* libIex-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIex-3_3.a"; path = "install/OS64/lib/libIex-3_3.a"; sourceTree = "<group>"; };
+		4FE394382E06B25700FD3221 /* libImath-3_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libImath-3_1.a"; path = "install/OS64/lib/libImath-3_1.a"; sourceTree = "<group>"; };
+		4FE394452E06B2FE00FD3221 /* OpenEXRWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenEXRWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE3944F2E06B31C00FD3221 /* libImath-3_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libImath-3_1.a"; path = "install/SIMULATORARM64/lib/libImath-3_1.a"; sourceTree = "<group>"; };
+		4FE394502E06B31C00FD3221 /* libOpenEXR-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXR-3_3.a"; path = "install/SIMULATORARM64/lib/libOpenEXR-3_3.a"; sourceTree = "<group>"; };
+		4FE394512E06B31C00FD3221 /* libIex-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIex-3_3.a"; path = "install/SIMULATORARM64/lib/libIex-3_3.a"; sourceTree = "<group>"; };
+		4FE394522E06B31C00FD3221 /* libdeflate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdeflate.a; path = install/SIMULATORARM64/lib/libdeflate.a; sourceTree = "<group>"; };
+		4FE394532E06B31C00FD3221 /* libOpenEXRCore-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRCore-3_3.a"; path = "install/SIMULATORARM64/lib/libOpenEXRCore-3_3.a"; sourceTree = "<group>"; };
+		4FE394542E06B31C00FD3221 /* libIlmThread-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIlmThread-3_3.a"; path = "install/SIMULATORARM64/lib/libIlmThread-3_3.a"; sourceTree = "<group>"; };
+		4FE394552E06B31C00FD3221 /* libOpenEXRUtil-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRUtil-3_3.a"; path = "install/SIMULATORARM64/lib/libOpenEXRUtil-3_3.a"; sourceTree = "<group>"; };
+		4FE394642E06B38D00FD3221 /* OpenEXRWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenEXRWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE394702E06B3A800FD3221 /* libOpenEXR-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXR-3_3.a"; path = "install/SIMULATOR64/lib/libOpenEXR-3_3.a"; sourceTree = "<group>"; };
+		4FE394712E06B3A800FD3221 /* libdeflate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdeflate.a; path = install/SIMULATOR64/lib/libdeflate.a; sourceTree = "<group>"; };
+		4FE394722E06B3A800FD3221 /* libIlmThread-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIlmThread-3_3.a"; path = "install/SIMULATOR64/lib/libIlmThread-3_3.a"; sourceTree = "<group>"; };
+		4FE394732E06B3A800FD3221 /* libOpenEXRCore-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRCore-3_3.a"; path = "install/SIMULATOR64/lib/libOpenEXRCore-3_3.a"; sourceTree = "<group>"; };
+		4FE394742E06B3A800FD3221 /* libIex-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libIex-3_3.a"; path = "install/SIMULATOR64/lib/libIex-3_3.a"; sourceTree = "<group>"; };
+		4FE394752E06B3A800FD3221 /* libOpenEXRUtil-3_3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOpenEXRUtil-3_3.a"; path = "install/SIMULATOR64/lib/libOpenEXRUtil-3_3.a"; sourceTree = "<group>"; };
+		4FE394762E06B3A800FD3221 /* libImath-3_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libImath-3_1.a"; path = "install/SIMULATOR64/lib/libImath-3_1.a"; sourceTree = "<group>"; };
+		4FECBC852E06749D006048E0 /* OpenEXRWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenEXRWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4F893FDF2E06E19900A08AB1 /* Exceptions for "OpenEXRWrapper_macos" folder in "OpenEXRWrapper_macos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				OpenEXRWrapper.h,
+			);
+			target = 4F893FD62E06E19900A08AB1 /* OpenEXRWrapper_macos */;
+		};
+		4F89441E2E06EDDA00A08AB1 /* Exceptions for "OpenEXRWrapper_macos_x86_64" folder in "OpenEXRWrapper_macos_x86_64" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				OpenEXRWrapper.h,
+			);
+			target = 4F8944172E06EDDA00A08AB1 /* OpenEXRWrapper_macos_x86_64 */;
+		};
+		4F8944EF2E07DD5C00A08AB1 /* Exceptions for "SharedTest" folder in "OpenEXRWrapperMacOSTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				OpenEXRWrapperTests.swift,
+				pixel_data.exr,
+				texture_sample.exr,
+			);
+			target = 4F89449B2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests */;
+		};
+		4F8945002E07DD8800A08AB1 /* Exceptions for "SharedTest" folder in "OpenEXRWrapperIOSSimulatorTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				OpenEXRWrapperTests.swift,
+				pixel_data.exr,
+				texture_sample.exr,
+			);
+			target = 4F8944F32E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests */;
+		};
+		4F8945062E07DF0500A08AB1 /* Exceptions for "SharedTest" folder in "OpenEXRWrapper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				OpenEXRWrapperTests.swift,
+				pixel_data.exr,
+				texture_sample.exr,
+			);
+			target = 4FECBC842E06749D006048E0 /* OpenEXRWrapper */;
+		};
+		4FE3944B2E06B2FE00FD3221 /* Exceptions for "OpenEXRWrapper_ios_simulator" folder in "OpenEXRWrapper_ios_simulator" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				OpenEXRWrapper.h,
+			);
+			target = 4FE394442E06B2FE00FD3221 /* OpenEXRWrapper_ios_simulator */;
+		};
+		4FE3946A2E06B38D00FD3221 /* Exceptions for "OpenEXRWrapper_ios_simulator_x86_64" folder in "OpenEXRWrapper_ios_simulator_x86_64" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				OpenEXRWrapper.h,
+			);
+			target = 4FE394632E06B38D00FD3221 /* OpenEXRWrapper_ios_simulator_x86_64 */;
+		};
+		4FECBC8C2E06749D006048E0 /* Exceptions for "OpenEXRWrapper" folder in "OpenEXRWrapper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				OpenEXRWrapper.h,
+			);
+			target = 4FECBC842E06749D006048E0 /* OpenEXRWrapper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F893FD82E06E19900A08AB1 /* OpenEXRWrapper_macos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F893FDF2E06E19900A08AB1 /* Exceptions for "OpenEXRWrapper_macos" folder in "OpenEXRWrapper_macos" target */,
+			);
+			path = OpenEXRWrapper_macos;
+			sourceTree = "<group>";
+		};
+		4F8944192E06EDDA00A08AB1 /* OpenEXRWrapper_macos_x86_64 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F89441E2E06EDDA00A08AB1 /* Exceptions for "OpenEXRWrapper_macos_x86_64" folder in "OpenEXRWrapper_macos_x86_64" target */,
+			);
+			path = OpenEXRWrapper_macos_x86_64;
+			sourceTree = "<group>";
+		};
+		4F89449D2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenEXRWrapperMacOSTests;
+			sourceTree = "<group>";
+		};
+		4F8944ED2E07DD3300A08AB1 /* SharedTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F8945062E07DF0500A08AB1 /* Exceptions for "SharedTest" folder in "OpenEXRWrapper" target */,
+				4F8944EF2E07DD5C00A08AB1 /* Exceptions for "SharedTest" folder in "OpenEXRWrapperMacOSTests" target */,
+				4F8945002E07DD8800A08AB1 /* Exceptions for "SharedTest" folder in "OpenEXRWrapperIOSSimulatorTests" target */,
+			);
+			path = SharedTest;
+			sourceTree = "<group>";
+		};
+		4F8944F52E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OpenEXRWrapperIOSSimulatorTests;
+			sourceTree = "<group>";
+		};
+		4FE394462E06B2FE00FD3221 /* OpenEXRWrapper_ios_simulator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FE3944B2E06B2FE00FD3221 /* Exceptions for "OpenEXRWrapper_ios_simulator" folder in "OpenEXRWrapper_ios_simulator" target */,
+			);
+			path = OpenEXRWrapper_ios_simulator;
+			sourceTree = "<group>";
+		};
+		4FE394652E06B38D00FD3221 /* OpenEXRWrapper_ios_simulator_x86_64 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FE3946A2E06B38D00FD3221 /* Exceptions for "OpenEXRWrapper_ios_simulator_x86_64" folder in "OpenEXRWrapper_ios_simulator_x86_64" target */,
+			);
+			path = OpenEXRWrapper_ios_simulator_x86_64;
+			sourceTree = "<group>";
+		};
+		4FECBC872E06749D006048E0 /* OpenEXRWrapper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FECBC8C2E06749D006048E0 /* Exceptions for "OpenEXRWrapper" folder in "OpenEXRWrapper" target */,
+			);
+			path = OpenEXRWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F893FD42E06E19900A08AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F89442B2E07851400A08AB1 /* libOpenEXRUtil-3_3.a in Frameworks */,
+				4F89442C2E07851400A08AB1 /* libImath-3_1.a in Frameworks */,
+				4F89442D2E07851400A08AB1 /* libOpenEXRCore-3_3.a in Frameworks */,
+				4F89442E2E07851400A08AB1 /* libOpenEXR-3_3.a in Frameworks */,
+				4F89442F2E07851400A08AB1 /* libIex-3_3.a in Frameworks */,
+				4F8944302E07851400A08AB1 /* libdeflate.a in Frameworks */,
+				4F8944312E07851400A08AB1 /* libIlmThread-3_3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944152E06EDDA00A08AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944392E07854F00A08AB1 /* libIex-3_3.a in Frameworks */,
+				4F89443A2E07854F00A08AB1 /* libImath-3_1.a in Frameworks */,
+				4F89443B2E07854F00A08AB1 /* libOpenEXRUtil-3_3.a in Frameworks */,
+				4F89443C2E07854F00A08AB1 /* libOpenEXRCore-3_3.a in Frameworks */,
+				4F89443D2E07854F00A08AB1 /* libdeflate.a in Frameworks */,
+				4F89443E2E07854F00A08AB1 /* libIlmThread-3_3.a in Frameworks */,
+				4F89443F2E07854F00A08AB1 /* libOpenEXR-3_3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944992E07A1D100A08AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944A02E07A1D100A08AB1 /* OpenEXRWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944F12E07DD7B00A08AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944F82E07DD7B00A08AB1 /* OpenEXRWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE394422E06B2FE00FD3221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE394562E06B31C00FD3221 /* libImath-3_1.a in Frameworks */,
+				4FE394572E06B31C00FD3221 /* libOpenEXR-3_3.a in Frameworks */,
+				4FE394582E06B31C00FD3221 /* libIex-3_3.a in Frameworks */,
+				4FE394592E06B31C00FD3221 /* libdeflate.a in Frameworks */,
+				4FE3945A2E06B31C00FD3221 /* libOpenEXRCore-3_3.a in Frameworks */,
+				4FE3945B2E06B31C00FD3221 /* libIlmThread-3_3.a in Frameworks */,
+				4FE3945C2E06B31C00FD3221 /* libOpenEXRUtil-3_3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE394612E06B38D00FD3221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE394772E06B3A800FD3221 /* libOpenEXR-3_3.a in Frameworks */,
+				4FE394782E06B3A800FD3221 /* libdeflate.a in Frameworks */,
+				4FE394792E06B3A800FD3221 /* libIlmThread-3_3.a in Frameworks */,
+				4FE3947A2E06B3A800FD3221 /* libOpenEXRCore-3_3.a in Frameworks */,
+				4FE3947B2E06B3A800FD3221 /* libIex-3_3.a in Frameworks */,
+				4FE3947C2E06B3A800FD3221 /* libOpenEXRUtil-3_3.a in Frameworks */,
+				4FE3947D2E06B3A800FD3221 /* libImath-3_1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECBC822E06749D006048E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE394392E06B25700FD3221 /* libOpenEXRCore-3_3.a in Frameworks */,
+				4FE3943A2E06B25700FD3221 /* libdeflate.a in Frameworks */,
+				4FE3943B2E06B25700FD3221 /* libOpenEXRUtil-3_3.a in Frameworks */,
+				4FE3943C2E06B25700FD3221 /* libOpenEXR-3_3.a in Frameworks */,
+				4FE3943D2E06B25700FD3221 /* libIlmThread-3_3.a in Frameworks */,
+				4FE3943E2E06B25700FD3221 /* libIex-3_3.a in Frameworks */,
+				4FE3943F2E06B25700FD3221 /* libImath-3_1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE394312E06B21F00FD3221 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3942B2E068B1600FD3221 /* wrapper.h */,
+				4FE3942C2E068B1600FD3221 /* wrapper.mm */,
+				4F8944E12E07C59B00A08AB1 /* readEXR.swift */,
+				4F8944E72E07C8FA00A08AB1 /* EXRData.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4FECBC7B2E06749D006048E0 = {
+			isa = PBXGroup;
+			children = (
+				4FE394312E06B21F00FD3221 /* Shared */,
+				4FECBC872E06749D006048E0 /* OpenEXRWrapper */,
+				4FE394462E06B2FE00FD3221 /* OpenEXRWrapper_ios_simulator */,
+				4FE394652E06B38D00FD3221 /* OpenEXRWrapper_ios_simulator_x86_64 */,
+				4F893FD82E06E19900A08AB1 /* OpenEXRWrapper_macos */,
+				4F8944192E06EDDA00A08AB1 /* OpenEXRWrapper_macos_x86_64 */,
+				4F8944ED2E07DD3300A08AB1 /* SharedTest */,
+				4F89449D2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests */,
+				4F8944F52E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests */,
+				4FECBC922E0674BF006048E0 /* Frameworks */,
+				4FECBC862E06749D006048E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FECBC862E06749D006048E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FECBC852E06749D006048E0 /* OpenEXRWrapper.framework */,
+				4FE394452E06B2FE00FD3221 /* OpenEXRWrapper.framework */,
+				4FE394642E06B38D00FD3221 /* OpenEXRWrapper.framework */,
+				4F893FD72E06E19900A08AB1 /* OpenEXRWrapper.framework */,
+				4F8944182E06EDDA00A08AB1 /* OpenEXRWrapper.framework */,
+				4F89449C2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests.xctest */,
+				4F8944F42E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FECBC922E0674BF006048E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F8944362E07854F00A08AB1 /* libdeflate.a */,
+				4F8944322E07854F00A08AB1 /* libIex-3_3.a */,
+				4F8944372E07854F00A08AB1 /* libIlmThread-3_3.a */,
+				4F8944332E07854F00A08AB1 /* libImath-3_1.a */,
+				4F8944382E07854F00A08AB1 /* libOpenEXR-3_3.a */,
+				4F8944352E07854F00A08AB1 /* libOpenEXRCore-3_3.a */,
+				4F8944342E07854F00A08AB1 /* libOpenEXRUtil-3_3.a */,
+				4F8944292E07851400A08AB1 /* libdeflate.a */,
+				4F8944282E07851400A08AB1 /* libIex-3_3.a */,
+				4F89442A2E07851400A08AB1 /* libIlmThread-3_3.a */,
+				4F8944252E07851400A08AB1 /* libImath-3_1.a */,
+				4F8944272E07851400A08AB1 /* libOpenEXR-3_3.a */,
+				4F8944262E07851400A08AB1 /* libOpenEXRCore-3_3.a */,
+				4F8944242E07851400A08AB1 /* libOpenEXRUtil-3_3.a */,
+				4FE394712E06B3A800FD3221 /* libdeflate.a */,
+				4FE394742E06B3A800FD3221 /* libIex-3_3.a */,
+				4FE394722E06B3A800FD3221 /* libIlmThread-3_3.a */,
+				4FE394762E06B3A800FD3221 /* libImath-3_1.a */,
+				4FE394702E06B3A800FD3221 /* libOpenEXR-3_3.a */,
+				4FE394732E06B3A800FD3221 /* libOpenEXRCore-3_3.a */,
+				4FE394752E06B3A800FD3221 /* libOpenEXRUtil-3_3.a */,
+				4FE394522E06B31C00FD3221 /* libdeflate.a */,
+				4FE394512E06B31C00FD3221 /* libIex-3_3.a */,
+				4FE394542E06B31C00FD3221 /* libIlmThread-3_3.a */,
+				4FE3944F2E06B31C00FD3221 /* libImath-3_1.a */,
+				4FE394502E06B31C00FD3221 /* libOpenEXR-3_3.a */,
+				4FE394532E06B31C00FD3221 /* libOpenEXRCore-3_3.a */,
+				4FE394552E06B31C00FD3221 /* libOpenEXRUtil-3_3.a */,
+				4FE394332E06B25700FD3221 /* libdeflate.a */,
+				4FE394372E06B25700FD3221 /* libIex-3_3.a */,
+				4FE394362E06B25700FD3221 /* libIlmThread-3_3.a */,
+				4FE394382E06B25700FD3221 /* libImath-3_1.a */,
+				4FE394352E06B25700FD3221 /* libOpenEXR-3_3.a */,
+				4FE394322E06B25700FD3221 /* libOpenEXRCore-3_3.a */,
+				4FE394342E06B25700FD3221 /* libOpenEXRUtil-3_3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F893FD22E06E19900A08AB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944122E06EDC700A08AB1 /* wrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944132E06EDDA00A08AB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944232E06EDE500A08AB1 /* wrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE394402E06B2FE00FD3221 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3945D2E06B36700FD3221 /* wrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE3945F2E06B38D00FD3221 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3946E2E06B39300FD3221 /* wrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECBC802E06749D006048E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3942E2E068B1600FD3221 /* wrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		4F8945072E07E04400A08AB1 /* CreateXCFramework */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = create_xcframework;
+			buildConfigurationList = 4F8945082E07E04400A08AB1 /* Build configuration list for PBXLegacyTarget "CreateXCFramework" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = CreateXCFramework;
+			packageProductDependencies = (
+			);
+			passBuildSettingsInEnvironment = 1;
+			productName = CreateXCFramework;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		4F893FD62E06E19900A08AB1 /* OpenEXRWrapper_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F893FE02E06E19900A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_macos" */;
+			buildPhases = (
+				4F893FD22E06E19900A08AB1 /* Headers */,
+				4F893FD32E06E19900A08AB1 /* Sources */,
+				4F893FD42E06E19900A08AB1 /* Frameworks */,
+				4F893FD52E06E19900A08AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F893FD82E06E19900A08AB1 /* OpenEXRWrapper_macos */,
+			);
+			name = OpenEXRWrapper_macos;
+			packageProductDependencies = (
+			);
+			productName = OpenEXRWrapper_macos;
+			productReference = 4F893FD72E06E19900A08AB1 /* OpenEXRWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F8944172E06EDDA00A08AB1 /* OpenEXRWrapper_macos_x86_64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F89441F2E06EDDA00A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_macos_x86_64" */;
+			buildPhases = (
+				4F8944132E06EDDA00A08AB1 /* Headers */,
+				4F8944142E06EDDA00A08AB1 /* Sources */,
+				4F8944152E06EDDA00A08AB1 /* Frameworks */,
+				4F8944162E06EDDA00A08AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F8944192E06EDDA00A08AB1 /* OpenEXRWrapper_macos_x86_64 */,
+			);
+			name = OpenEXRWrapper_macos_x86_64;
+			packageProductDependencies = (
+			);
+			productName = OpenEXRWrapper_macos_x86_64;
+			productReference = 4F8944182E06EDDA00A08AB1 /* OpenEXRWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F89449B2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8944A52E07A1D100A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapperMacOSTests" */;
+			buildPhases = (
+				4F8944982E07A1D100A08AB1 /* Sources */,
+				4F8944992E07A1D100A08AB1 /* Frameworks */,
+				4F89449A2E07A1D100A08AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8944A22E07A1D100A08AB1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4F89449D2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests */,
+			);
+			name = OpenEXRWrapperMacOSTests;
+			packageProductDependencies = (
+			);
+			productName = OpenEXRWrapperMacOSTests;
+			productReference = 4F89449C2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F8944F32E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8944FB2E07DD7B00A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapperIOSSimulatorTests" */;
+			buildPhases = (
+				4F8944F02E07DD7B00A08AB1 /* Sources */,
+				4F8944F12E07DD7B00A08AB1 /* Frameworks */,
+				4F8944F22E07DD7B00A08AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8944FA2E07DD7B00A08AB1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4F8944F52E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests */,
+			);
+			name = OpenEXRWrapperIOSSimulatorTests;
+			packageProductDependencies = (
+			);
+			productName = OpenEXRWrapperIOSSimulatorTests;
+			productReference = 4F8944F42E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FE394442E06B2FE00FD3221 /* OpenEXRWrapper_ios_simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE3944C2E06B2FE00FD3221 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_ios_simulator" */;
+			buildPhases = (
+				4FE394402E06B2FE00FD3221 /* Headers */,
+				4FE394412E06B2FE00FD3221 /* Sources */,
+				4FE394422E06B2FE00FD3221 /* Frameworks */,
+				4FE394432E06B2FE00FD3221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FE394462E06B2FE00FD3221 /* OpenEXRWrapper_ios_simulator */,
+			);
+			name = OpenEXRWrapper_ios_simulator;
+			packageProductDependencies = (
+			);
+			productName = OpenEXRWrapper_ios_simulator;
+			productReference = 4FE394452E06B2FE00FD3221 /* OpenEXRWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FE394632E06B38D00FD3221 /* OpenEXRWrapper_ios_simulator_x86_64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE3946B2E06B38D00FD3221 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_ios_simulator_x86_64" */;
+			buildPhases = (
+				4FE3945F2E06B38D00FD3221 /* Headers */,
+				4FE394602E06B38D00FD3221 /* Sources */,
+				4FE394612E06B38D00FD3221 /* Frameworks */,
+				4FE394622E06B38D00FD3221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FE394652E06B38D00FD3221 /* OpenEXRWrapper_ios_simulator_x86_64 */,
+			);
+			name = OpenEXRWrapper_ios_simulator_x86_64;
+			packageProductDependencies = (
+			);
+			productName = OpenEXRWrapper_ios_simulator_x86_64;
+			productReference = 4FE394642E06B38D00FD3221 /* OpenEXRWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FECBC842E06749D006048E0 /* OpenEXRWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FECBC8D2E06749D006048E0 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper" */;
+			buildPhases = (
+				4FECBC802E06749D006048E0 /* Headers */,
+				4FECBC812E06749D006048E0 /* Sources */,
+				4FECBC822E06749D006048E0 /* Frameworks */,
+				4FECBC832E06749D006048E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F8944ED2E07DD3300A08AB1 /* SharedTest */,
+				4FECBC872E06749D006048E0 /* OpenEXRWrapper */,
+			);
+			name = OpenEXRWrapper;
+			packageProductDependencies = (
+			);
+			productName = OpenEXRWrapper;
+			productReference = 4FECBC852E06749D006048E0 /* OpenEXRWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FECBC7C2E06749D006048E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4F893FD62E06E19900A08AB1 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					4F8944172E06EDDA00A08AB1 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					4F89449B2E07A1D100A08AB1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4F8944F32E07DD7B00A08AB1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4F8945072E07E04400A08AB1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4FE394442E06B2FE00FD3221 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					4FE394632E06B38D00FD3221 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					4FECBC842E06749D006048E0 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+				};
+			};
+			buildConfigurationList = 4FECBC7F2E06749D006048E0 /* Build configuration list for PBXProject "OpenEXRWrapper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FECBC7B2E06749D006048E0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4FECBC862E06749D006048E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FECBC842E06749D006048E0 /* OpenEXRWrapper */,
+				4FE394442E06B2FE00FD3221 /* OpenEXRWrapper_ios_simulator */,
+				4FE394632E06B38D00FD3221 /* OpenEXRWrapper_ios_simulator_x86_64 */,
+				4F893FD62E06E19900A08AB1 /* OpenEXRWrapper_macos */,
+				4F8944172E06EDDA00A08AB1 /* OpenEXRWrapper_macos_x86_64 */,
+				4F89449B2E07A1D100A08AB1 /* OpenEXRWrapperMacOSTests */,
+				4F8944F32E07DD7B00A08AB1 /* OpenEXRWrapperIOSSimulatorTests */,
+				4F8945072E07E04400A08AB1 /* CreateXCFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F893FD52E06E19900A08AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944162E06EDDA00A08AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F89449A2E07A1D100A08AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944F22E07DD7B00A08AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE394432E06B2FE00FD3221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE394622E06B38D00FD3221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECBC832E06749D006048E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F893FD32E06E19900A08AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944EB2E07C8FA00A08AB1 /* EXRData.swift in Sources */,
+				4F8944112E06EDC300A08AB1 /* wrapper.mm in Sources */,
+				4F8944E22E07C59B00A08AB1 /* readEXR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944142E06EDDA00A08AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944E92E07C8FA00A08AB1 /* EXRData.swift in Sources */,
+				4F8944222E06EDE500A08AB1 /* wrapper.mm in Sources */,
+				4F8944E52E07C59B00A08AB1 /* readEXR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944982E07A1D100A08AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8944F02E07DD7B00A08AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE394412E06B2FE00FD3221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3945E2E06B36C00FD3221 /* wrapper.mm in Sources */,
+				4F8944EA2E07C8FA00A08AB1 /* EXRData.swift in Sources */,
+				4F8944E62E07C59B00A08AB1 /* readEXR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE394602E06B38D00FD3221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944E82E07C8FA00A08AB1 /* EXRData.swift in Sources */,
+				4FE3946F2E06B39300FD3221 /* wrapper.mm in Sources */,
+				4F8944E32E07C59B00A08AB1 /* readEXR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FECBC812E06749D006048E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8944EC2E07C8FA00A08AB1 /* EXRData.swift in Sources */,
+				4FE394302E068B1600FD3221 /* wrapper.mm in Sources */,
+				4F8944E42E07C59B00A08AB1 /* readEXR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F8944A22E07A1D100A08AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F893FD62E06E19900A08AB1 /* OpenEXRWrapper_macos */;
+			targetProxy = 4F8944A12E07A1D100A08AB1 /* PBXContainerItemProxy */;
+		};
+		4F8944FA2E07DD7B00A08AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FE394442E06B2FE00FD3221 /* OpenEXRWrapper_ios_simulator */;
+			targetProxy = 4F8944F92E07DD7B00A08AB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F893FDD2E06E19900A08AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/MAC_ARM64/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-macos";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/MAC_ARM64/include/**";
+			};
+			name = Debug;
+		};
+		4F893FDE2E06E19900A08AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/MAC_ARM64/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-macos";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/MAC_ARM64/include/**";
+			};
+			name = Release;
+		};
+		4F8944202E06EDDA00A08AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/MAC/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-macos-x86-64";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/MAC/include/**";
+			};
+			name = Debug;
+		};
+		4F8944212E06EDDA00A08AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/MAC/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-macos-x86-64";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/MAC/include/**";
+			};
+			name = Release;
+		};
+		4F8944A32E07A1D100A08AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiro1109.OpenEXRWrapperMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4F8944A42E07A1D100A08AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiro1109.OpenEXRWrapperMacOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4F8944FC2E07DD7B00A08AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiro1109.OpenEXRWrapperIOSSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8944FD2E07DD7B00A08AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiro1109.OpenEXRWrapperIOSSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F8945092E07E04400A08AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F89450A2E07E04400A08AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FE3944D2E06B2FE00FD3221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/SIMULATORARM64/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-ios-simulator";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/SIMULATORARM64/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FE3944E2E06B2FE00FD3221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/SIMULATORARM64/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-ios-simulator";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/SIMULATORARM64/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FE3946C2E06B38D00FD3221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/SIMULATOR64/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-ios-simulator-x86-64";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/SIMULATOR64/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FE3946D2E06B38D00FD3221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/install/SIMULATOR64/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nhiro1109.OpenEXRWrapper-ios-simulator-x86-64";
+				PRODUCT_NAME = OpenEXRWrapper;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/SIMULATOR64/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FECBC8E2E06749D006048E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/install/OS64/lib";
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiro1109.OpenEXRWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/OS64/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FECBC8F2E06749D006048E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2CMV7D36JC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/install/OS64/lib";
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhiro1109.OpenEXRWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/install/OS64/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FECBC902E06749D006048E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FECBC912E06749D006048E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F893FE02E06E19900A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F893FDD2E06E19900A08AB1 /* Debug */,
+				4F893FDE2E06E19900A08AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F89441F2E06EDDA00A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_macos_x86_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8944202E06EDDA00A08AB1 /* Debug */,
+				4F8944212E06EDDA00A08AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8944A52E07A1D100A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapperMacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8944A32E07A1D100A08AB1 /* Debug */,
+				4F8944A42E07A1D100A08AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8944FB2E07DD7B00A08AB1 /* Build configuration list for PBXNativeTarget "OpenEXRWrapperIOSSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8944FC2E07DD7B00A08AB1 /* Debug */,
+				4F8944FD2E07DD7B00A08AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8945082E07E04400A08AB1 /* Build configuration list for PBXLegacyTarget "CreateXCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8945092E07E04400A08AB1 /* Debug */,
+				4F89450A2E07E04400A08AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE3944C2E06B2FE00FD3221 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_ios_simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE3944D2E06B2FE00FD3221 /* Debug */,
+				4FE3944E2E06B2FE00FD3221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE3946B2E06B38D00FD3221 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper_ios_simulator_x86_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE3946C2E06B38D00FD3221 /* Debug */,
+				4FE3946D2E06B38D00FD3221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FECBC7F2E06749D006048E0 /* Build configuration list for PBXProject "OpenEXRWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECBC902E06749D006048E0 /* Debug */,
+				4FECBC912E06749D006048E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FECBC8D2E06749D006048E0 /* Build configuration list for PBXNativeTarget "OpenEXRWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FECBC8E2E06749D006048E0 /* Debug */,
+				4FECBC8F2E06749D006048E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FECBC7C2E06749D006048E0 /* Project object */;
+}
