@@ -19,7 +19,28 @@ PACKAGE_FILE = Package.swift
 
 SCHEMES := OpenEXRWrapper OpenEXRWrapper_ios_simulator
 
-.PHONY: prepare-ios-cmake build_ios build_ios_simulator_arm64 build_ios_simulator_x86_64 build_macos_arm64 build_macos_x86_64 clear all
+.PHONY: \
+	prepare-ios-cmake \
+	build_ios \
+	build_ios_simulator_arm64 \
+	build_ios_simulator_x86_64 \
+	build_macos_arm64 \
+	build_macos_x86_64 \
+	archive_ios \
+	archive_ios_simulator_arm64 \
+	archive_ios_simulator_x86_64 \
+	archive_ios_simulator \
+	archive_macos_arm64 \
+	archive_macos_x86_64 \
+	archive_macos \
+	create_xcframework \
+	zip \
+	checksum \
+	update_package \
+	build \
+	archive \
+	all \
+	clear
 
 prepare-ios-cmake:
 	@if [ ! -d "$(IOS_CMAKE_DIR)" ]; then \
@@ -172,6 +193,12 @@ checksum:
 
 update_package: zip checksum
 
+build: prepare-ios-cmake build_ios build_ios_simulator_arm64 build_ios_simulator_x86_64 build_macos_arm64 build_macos_x86_64
+
+archive: archive_ios archive_ios_simulator archive_macos
+
+all: build archive create_xcframework zip update_package
+
 clear:
 	@echo "Cleaning build directories..."
 	rm -rf $(BUILD_DIR)
@@ -179,5 +206,3 @@ clear:
 	rm -rf $(ARCHIVE_DIR)
 	rm -rf $(TMP_DIR)
 	@echo "Clean complete."
-
-build: prepare-ios-cmake build_ios build_ios_simulator_arm64 build_ios_simulator_x86_64 build_macos_arm64 build_macos_x86_64
