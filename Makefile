@@ -162,7 +162,7 @@ zip:
 	@echo "Compressing $(FRAMEWORK_NAME).xcframework into $(ZIP_FILE)..."
 	mkdir -p $(TMP_DIR)
 	@rm -f $(ZIP_FILE)
-	@zip -r $(ZIP_FILE) $(ARCHIVE_DIR)/$(FRAMEWORK_NAME).xcframework > /dev/null
+	@cd $(ARCHIVE_DIR) && zip -r "../$(ZIP_FILE)" "$(FRAMEWORK_NAME).xcframework" > /dev/null
 
 checksum:
 	@echo "Computing checksum and updating $(PACKAGE_FILE)..."
