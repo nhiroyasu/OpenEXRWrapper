@@ -16,7 +16,7 @@ SwiftのARCや型安全な機能を活用し、EXRファイルを効率的に扱
 `Package.swift`ファイルに以下の依存関係を追加してください:
 
 ```swift
-.package(url: "https://github.com/your-repo/OpenEXRWrapper.git", from: "1.0.0")
+.package(url: "https://github.com/nhiroyasu/OpenEXRWrapper.git", from: "0.1.0")
 ```
 
 ## 使用方法

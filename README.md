@@ -16,7 +16,7 @@ This project leverages Swift's ARC and type-safe features to provide a modern an
 Add the following dependency to your `Package.swift` file:
 
 ```swift
-.package(url: "https://github.com/your-repo/OpenEXRWrapper.git", from: "1.0.0")
+.package(url: "https://github.com/nhiroyasu/OpenEXRWrapper.git", from: "0.1.0")
 ```
 
 ## Usage
