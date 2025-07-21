@@ -180,10 +180,10 @@ create_xcframework: archive_ios archive_ios_simulator archive_macos
 		-output archive/OpenEXRWrapper.xcframework
 
 zip:
-	@echo "Compressing $(FRAMEWORK_NAME).xcframework into $(ZIP_FILE)..."
-	mkdir -p $(TMP_DIR)
+	@echo "Compressing $(ARCHIVE_DIR)/$(FRAMEWORK_NAME).xcframework into $(ZIP_FILE)..."
+	@mkdir -p $(TMP_DIR)
 	@rm -f $(ZIP_FILE)
-	@cd $(ARCHIVE_DIR) && zip -r "../$(ZIP_FILE)" "$(FRAMEWORK_NAME).xcframework" > /dev/null
+	@ditto -c -k --sequesterRsrc --keepParent "$(ARCHIVE_DIR)/$(FRAMEWORK_NAME).xcframework" "$(ZIP_FILE)" > /dev/null
 
 checksum:
 	@echo "Computing checksum and updating $(PACKAGE_FILE)..."
