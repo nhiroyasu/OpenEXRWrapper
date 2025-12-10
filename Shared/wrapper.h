@@ -57,7 +57,6 @@ const CEXR_Channel* cexr_header_get_channel(const CEXR_Header* header, int index
 // CEXR_ChannelList accessors
 typedef struct CEXR_ChannelList CEXR_ChannelList;
 
-const CEXR_ChannelList* cexr_header_get_channel_list(const CEXR_Header* header);
 int cexr_channel_list_get_count(const CEXR_ChannelList* list);
 const CEXR_Channel* cexr_channel_list_get_channel(const CEXR_ChannelList* list, int index);
 

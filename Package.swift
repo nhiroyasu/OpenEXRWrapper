@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: NAME,
-            url: "https://github.com/nhiroyasu/OpenEXRWrapper/releases/download/0.1.1/OpenEXRWrapper.xcframework.zip",
-            checksum: "981745f4d7aab41bdb2e93db9cdfb047585c23be0d95a46a0116baace4a96ea4"
+            url: "https://github.com/nhiroyasu/OpenEXRWrapper/releases/download/0.1.2/OpenEXRWrapper.xcframework.zip",
+            checksum: "cc760ae1056712e5bde4cace6d71bf8139f7aa9f5b73707448b60000c68739c6"
         )
     ]
 )

@@ -219,12 +219,6 @@ int cexr_channel_get_p_linear(const CEXR_Channel* channel) {
 }
 
 // MARK: - CEXR_ChannelList Accessors
-const CEXR_ChannelList* cexr_header_get_channel_list(const CEXR_Header* header) {
-    if (!header) return nullptr;
-    static CEXR_ChannelList list;
-    list.channels = const_cast<std::vector<CEXR_Channel>*>(&header->channels);
-    return &list;
-}
 
 int cexr_channel_list_get_count(const CEXR_ChannelList* list) {
     return list && list->channels ? static_cast<int>(list->channels->size()) : 0;

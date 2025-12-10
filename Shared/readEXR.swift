@@ -35,12 +35,11 @@ public func readEXR(url: URL) throws -> EXRData {
     let screenWindowWidth = cexr_header_get_screen_window_width(cHeader)
     let lineOrder = Int32(cexr_header_get_line_order(cHeader))
 
-    let channelList = cexr_header_get_channel_list(cHeader)
-    let channelCount = Int32(cexr_channel_list_get_count(channelList))
+     let channelCount = Int32(cexr_header_get_channel_count(cHeader))
 
     var channels: [EXRData.Header.Channel] = []
     for i in 0..<channelCount {
-        guard let ch = cexr_channel_list_get_channel(channelList, i) else { continue }
+        guard let ch = cexr_header_get_channel(cHeader, i) else { continue }
         let name = String(cString: cexr_channel_get_name(ch))
         let typeRaw = cexr_channel_get_pixel_type(ch).rawValue
         let pixelType = EXRData.Header.Channel.PixelType(rawValue: typeRaw)
